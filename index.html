@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
       rel="stylesheet"
@@ -15,116 +16,7 @@
       crossorigin="anonymous"
     ></script>
     <title>Google Landpage</title>
-    <style>
-      * {
-        font-family: Arial, Helvetica, sans-serif;
-        box-sizing: border-box;
-      }
-      #navbar {
-        text-align: grid;
-        grid-template-columns: auto auto auto auto;
-        float: right;
-        padding-top: 0.2rem;
-      }
-
-      nav a {
-        padding: 0.5rem;
-        text-decoration: none;
-        color: black;
-        font-size: 0.8rem;
-      }
-
-      #login {
-        color: white;
-        background-color: #1a73e8;
-        border-radius: 0.3rem;
-        padding: 0.7rem 1.5rem;
-      }
-
-      .gb_We {
-        width: 2rem;
-      }
-
-      #menu-icon {
-        position: relative;
-        text-decoration: none;
-        top: 0.5rem;
-      }
-
-      main {
-        clear: right;
-        text-align: center;
-        margin-top: 10rem;
-      }
-
-      #input {
-        margin-bottom: 2rem;
-        border: 1.5px solid #dadce0;
-        width: 50rem;
-        margin: 1rem auto 2rem;
-        border-radius: 2rem;
-      }
-      #input:hover {
-        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
-      }
-      #gmail:hover,
-      #images:hover {
-        text-decoration: underline;
-      }
-
-      #search a {
-        text-decoration: none;
-        color: black;
-        background-color: rgb(241, 241, 241);
-        padding: 0.7rem;
-        font-size: 1rem;
-        color: #3c4043;
-        border-radius: 5 id= "logo-1" px;
-      }
-
-      #search a:hover {
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-        border: 1px solid #dadce0;
-      }
-
-      #search-bar {
-        line-height: 2.8rem;
-        border-radius: 2rem;
-        border: none;
-      }
-
-      #search-bar:focus {
-        border: none;
-        outline: none;
-      }
-      #logo-google {
-        margin: auto;
-        font-size: 5rem;
-        user-select: none;
-        word-spacing: -15px;
-      }
-      #logo-google span {
-        font-family: "Poppins";
-      }
-      #logo-1,
-      #logo-4 {
-        color: rgb(92, 92, 255);
-      }
-      #logo-2,
-      #logo-5 {
-        color: rgb(255, 56, 56);
-      }
-      #logo-3 {
-        color: rgb(255, 208, 0);
-      }
-      #logo-6 {
-        color: green;
-      }
-
-      #magnify {
-        color: #b6b6b6;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <nav>
@@ -163,11 +55,24 @@
       </div>
     </main>
     <footer>
-      <div id="country"></div>
+      <div id="country">Türkiye</div>
+
       <div id="nav-footer">
-        <div id="footer-left"></div>
-        <div id="ecology"></div>
-        <div id="setting"></div>
+        <div id="footer-left">
+          <a href="#">Hakkında</a>
+          <a href="#">Reklam</a>
+          <a href="#">işletme</a>
+          <a href="#">Arama Nasıl Çalışır?</a>
+        </div>
+        <div id="ecology">
+          <i style="color: green; padding-right: 0.3rem" class="fas fa-leaf"></i
+          >2007'den bugüne karbon nötr
+        </div>
+        <div id="setting">
+          <a href="#">Gizlilik</a>
+          <a href="#">Şartlar</a>
+          <a href="#">Ayarlar</a>
+        </div>
       </div>
     </footer>
   </body>
